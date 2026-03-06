@@ -1,0 +1,119 @@
+﻿@*
+    LAYOUT DASHBOARD
+*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AcademiaStemTapachula</title>
+
+    <!-- Favicon -->
+    <link href="~/dashboard/img/favicon.ico" rel="icon">
+
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link href="~/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Librerías CSS -->
+    <link href="~/dashboard/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/dashboard/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/dashboard/css/bootstrap.min.css" />
+
+    <!-- Estilos del template -->
+    <link href="~/dashboard/css/style.css" rel="stylesheet">
+    @* <link rel="stylesheet" href="~/AcademiaStemTapachula.styles.css" asp-append-version="true" /> *@
+</head>
+    <body>
+
+        <div class="container-fluid position-relative d-flex p-0">
+
+            <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+                <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="sr-only">Cargando...</span>
+                </div>
+            </div>
+
+                <div class="sidebar pe-4 pb-3"> 
+                    <nav class="navbar bg-secondary navbar-dark">
+                        <a href="index.html" class="navbar-brand mx-4 mb-3">
+                            <h3 class="text-primary"><i class="fab fa-raspberry-pi me-2"></i>STEM</h3>
+                        </a>
+                        <div class="d-flex align-items-center ms-4 mb-4">
+                            <div class="position-relative">
+                                 <i class="fas fa-user-tie fa-3x"></i>
+                            </div>
+                            <div class="ms-3">
+                                <h6 class="mb-0">Administrador</h6>
+                            </div>
+                        </div>
+                        <div class="navbar-nav w-100">
+                             <a href="index.html" class="nav-item nav-link active"><i class="fas fa-home me-2"></i>Dashboard</a>
+                        </div>
+                    </nav>
+                </div>
+
+        <div class="content">
+
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="d-none d-md-flex ms-4">
+                    <input class="form-control bg-dark border-0" type="search" placeholder="Buscar">
+                </form>
+                <div class="navbar-nav align-items-center ms-auto">
+                   
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fas fa-user"></i>
+                            <span class="d-none d-lg-inline-flex">Administrador</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                            <a href="#" class="dropdown-item">Mi Perfil</a>
+                            <a href="#" class="dropdown-item">Configuracion</a>
+                            <a href="/Dashboard/" class="dropdown-item">Cerrar Sesion</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid pt-4 px-4">
+
+                @RenderBody()
+
+            </div>
+
+        </div>
+     </div>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="~/dashboard/lib/chart/chart.min.js"></script>
+        <script src="~/dashboard/lib/easing/easing.min.js"></script>
+        <script src="~/dashboard/lib/waypoints/waypoints.min.js"></script>
+        <script src="~/dashboard/lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <script src="~/dashboard/lib/tempusdominus/js/moment.min.js"></script>
+        <script src="~/dashboard/lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="~/dashboard/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <script src="~/dashboard/js/main.js"></script>
+
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </body>
+</html>

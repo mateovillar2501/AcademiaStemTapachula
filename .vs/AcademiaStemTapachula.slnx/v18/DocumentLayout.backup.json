@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\vial\\source\\repos\\academiastemtapachula\\academiastemtapachula\\academiastemtapachula.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -30,11 +66,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 255,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T02:55:28.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T02:55:18.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T02:54:53.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T00:57:05.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T00:56:21.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T00:56:17.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAywEoAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T00:30:54.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-06T00:28:20.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:28:00.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Program.cs",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Program.cs",
+              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Program.cs",
+              "RelativeToolTip": "AcademiaStemTapachula\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:20:54.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Properties\\launchSettings.json",
@@ -42,11 +208,12 @@
               "RelativeToolTip": "AcademiaStemTapachula\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-05T20:38:45.61Z"
+              "WhenOpened": "2026-03-05T20:38:45.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "AcademiaStemTapachula.csproj",
               "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
@@ -66,31 +233,20 @@
               "RelativeToolTip": "AcademiaStemTapachula\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T19:57:07.55Z"
+              "WhenOpened": "2026-03-05T19:57:07.55Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAJECAAAAAAAAAAAAAKQCAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-04T20:59:53.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-04T20:59:51.56Z",
+              "WhenOpened": "2026-03-04T20:59:53.828Z",
               "EditorCaption": ""
             }
           ]

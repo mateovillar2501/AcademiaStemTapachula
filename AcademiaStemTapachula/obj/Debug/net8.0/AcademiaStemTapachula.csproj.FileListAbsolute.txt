@@ -15,9 +15,11 @@ C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.RazorAssemblyInfo.cache
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.RazorAssemblyInfo.cs
+C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.sourcelink.json
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\scopedcss\Areas\Dashboard\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\scopedcss\bundle\AcademiaStemTapachula.styles.css
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\scopedcss\projectbundle\AcademiaStemTapachula.bundle.scp.css

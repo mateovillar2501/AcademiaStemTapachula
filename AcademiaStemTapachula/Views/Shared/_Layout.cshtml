@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@*
+    LAYOUT LANDING PAGE
+*@
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -11,6 +15,8 @@
     <link rel="stylesheet" href="~/landing/css/owl.css">
     <link rel="stylesheet" href="~/landing/css/lightbox.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    @RenderSection("Styles", required: false)
     @* <link rel="stylesheet" href="~/AcademiaStemTapachula.styles.css" asp-append-version="true" /> *@
 </head>
 <body>
