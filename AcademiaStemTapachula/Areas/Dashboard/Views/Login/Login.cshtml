@@ -1,0 +1,33 @@
+﻿﻿@*
+    VISTA DE LOGIN
+*@
+@{
+    Layout = "_LayoutLogin";
+}
+
+<div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
+    <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+        <div class="bg-secondary rounded shadow p-4 p-sm-5 my-4 mx-3">
+
+            <div class="text-center mb-4">
+                <h3 class="fw-bold text-primary">Iniciar sesión</h3>
+                <p class="text-muted small mb-0">Accede al panel de administración</p>
+            </div>
+            <form class="user" asp-controller="Login" asp-action="Login" method="post">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" name="user" id="usuario" placeholder="correo@ejemplo.com">
+                    <label for="correo">Usuario</label>
+                </div>
+
+                <div class="form-floating mb-4">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Contraseña">
+                    <label for="password">Contraseña</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary py-3 w-100">
+                    Iniciar sesión
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
