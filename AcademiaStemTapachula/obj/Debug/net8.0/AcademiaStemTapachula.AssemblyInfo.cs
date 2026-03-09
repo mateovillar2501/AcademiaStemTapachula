@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AcademiaStemTapachula")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e94ce5512e5e2a3e9533d436e04c8ad4ba10554")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15dd43db08dcd4cdca9d9eec0b4ce6ecc8e78a2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AcademiaStemTapachula")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AcademiaStemTapachula")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
