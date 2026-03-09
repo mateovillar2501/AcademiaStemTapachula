@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Emili\\OneDrive\\Escritorio\\STEM\\AcademiaStemTapachula\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\emili\\onedrive\\escritorio\\stem\\academiastemtapachula\\academiastemtapachula\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\emili\\onedrive\\escritorio\\stem\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emili\\OneDrive\\Escritorio\\STEM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emili\\OneDrive\\Escritorio\\STEM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-09T20:39:11.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Emili\\OneDrive\\Escritorio\\STEM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Login\\Login.cshtml",
@@ -26,8 +43,7 @@
               "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Login\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-09T20:26:07.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T20:26:07.488Z"
             }
           ]
         }
