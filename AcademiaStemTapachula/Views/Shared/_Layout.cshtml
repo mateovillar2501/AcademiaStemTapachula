@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="~/landing/css/lightbox.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 
-    @RenderSection("Styles", required: false)
+    @await RenderSectionAsync("Styles", required: false)
     @* <link rel="stylesheet" href="~/AcademiaStemTapachula.styles.css" asp-append-version="true" /> *@
 </head>
 <body>
@@ -41,6 +41,8 @@
                             </li> *@
                             <li class="scroll-to-section"><a href="#courses">Cursos</a></li>
                             <li class="scroll-to-section"><a href="#contact">Contactanos</a></li>
+
+                            <li class=""><a asp-area="Dashboard" asp-action="Login" asp-controller="Login">Dashboard</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>

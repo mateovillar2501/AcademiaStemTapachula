@@ -31,6 +31,7 @@
     <!-- Estilos del template -->
     <link href="~/dashboard/css/style.css" rel="stylesheet">
     @* <link rel="stylesheet" href="~/AcademiaStemTapachula.styles.css" asp-append-version="true" /> *@
+    @await RenderSectionAsync("Styles", required: false)
 </head>
     <body>
 
@@ -44,7 +45,7 @@
 
                 <div class="sidebar pe-4 pb-3"> 
                     <nav class="navbar bg-secondary navbar-dark">
-                        <a href="index.html" class="navbar-brand mx-4 mb-3">
+                        <a asp-controller="Home" asp-action="Index" class="navbar-brand mx-4 mb-3">
                             <h3 class="text-primary"><i class="fab fa-raspberry-pi me-2"></i>STEM</h3>
                         </a>
                         <div class="d-flex align-items-center ms-4 mb-4">
@@ -56,8 +57,13 @@
                             </div>
                         </div>
                         <div class="navbar-nav w-100">
-                             <a href="index.html" class="nav-item nav-link active"><i class="fas fa-home me-2"></i>Dashboard</a>
+                             <a asp-action="Index" asp-controller="Home" class="nav-item nav-link active"><i class="fas fa-home me-2"></i>Dashboard</a>
                         </div>
+
+                        <div class="my-3 navbar-nav w-100">
+                             <a asp-action="NuevoCurso" asp-controller="Cursos" class="nav-item nav-link active"><i class="fas fa-plus me-2"></i>Agregar Curso</a>
+                        </div>
+               
                     </nav>
                 </div>
 
@@ -84,7 +90,7 @@
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">Mi Perfil</a>
                             <a href="#" class="dropdown-item">Configuracion</a>
-                            <a href="/Dashboard/" class="dropdown-item">Cerrar Sesion</a>
+                            <a asp-action="Login" asp-controller="Login" class="dropdown-item">Cerrar Sesion</a>
                             
                         </div>
                     </div>
@@ -115,5 +121,6 @@
         <script src="~/dashboard/js/main.js"></script>
 
         <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
     </body>
 </html>
