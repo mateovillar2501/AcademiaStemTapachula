@@ -34,7 +34,11 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
+<<<<<<< HEAD
       "VerticalTabListWidth": 256,
+=======
+      "VerticalTabListWidth": 100,
+>>>>>>> be9f41d0386f1840d638cdbf85e6e4128aed4df7
       "DocumentGroups": [
         {
           "DockedWidth": 255,
@@ -43,12 +47,21 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "NuevoCurso.cshtml",
               "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
               "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
               "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
               "ViewState": "AgIAADAAAAAAAAAAAAAuwEYAAAAGAAAAAAAAAA==",
+=======
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emili\\OneDrive\\Escritorio\\STEM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emili\\OneDrive\\Escritorio\\STEM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGEAAAAKAAAAAAAAAA==",
+>>>>>>> be9f41d0386f1840d638cdbf85e6e4128aed4df7
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-10T21:38:38.151Z",
               "IsPinned": true,
