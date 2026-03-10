@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-}
+}   
 @*
     INDEX LANDING PAGE
 *@
@@ -81,19 +81,23 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="section-heading">
-            <h2>Upcoming Meetings</h2>
-          </div>
+                <div class="col-lg-13">
+                    <div class="section-heading">
+                        <h2 style="font-weight: bold; color: #2c3e50; background-color: #D3D3D3; padding: 10px; border-radius: 5px;">
+                            Torneos de la <span style="color:#FF0000;">Academia</span>
+                        </h2>
+                    </div>
+                </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="categories">
-            <h4>Meeting Catgories</h4>
+            <h4>Categorías:</h4>
            
           </div>
         </div>
         <div class="col-lg-8">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-4">
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
@@ -104,12 +108,12 @@
                   <div class="date">
                     
                   </div>
-                  <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
+                  <a href="meeting-details.html"><h4>Primaria</h4></a>
                   
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
@@ -120,12 +124,12 @@
                   <div class="date">
                     
                   </div>
-                  <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
+                  <a href="meeting-details.html"><h4>Secundaria</h4></a>
                   
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
@@ -136,27 +140,12 @@
                   <div class="date">
                     
                   </div>
-                  <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
+                  <a href="meeting-details.html"><h4>Preparatoría</h4></a>
                   
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                  </div>
-                  @*poner img*@
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    
-                  </div>
-                  <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
-                  
-                </div>
-              </div>
-            </div>
+            
            
           </div>
         </div>
@@ -171,17 +160,17 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="item">
-                <h3>Ingresar Subtema</h3>
+                <h3></h3>
                 <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">escribe algo</a></div>
+                  <div class="scroll-to-section"><a href="#contact"></a></div>
               </div>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
-                <h3>Ingresar subtema 2</h3>
+                <h3></h3>
                 <div class="main-button-yellow">
-                  <div class="scroll-to-section"><a href="#contact">escribe algo</a></div>
+                  <div class="scroll-to-section"><a href="#contact"></a></div>
               </div>
               </div>
             </div>
@@ -191,7 +180,7 @@
           <div class="accordions is-first-expanded">
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>Ingresar subtema 3</span>
+                    <span>                  </span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
@@ -204,7 +193,7 @@
             </article>
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>ingresar subtema 4</span>
+                    <span> </span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
@@ -217,7 +206,7 @@
             </article>
             <article class="accordion">
                 <div class="accordion-head">
-                    <span>ingresar subtema 5</span>
+                    <span>               </span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
@@ -230,7 +219,7 @@
             </article>
             <article class="accordion last-accordion">
                 <div class="accordion-head">
-                    <span>Ingresa subtema 7</span>
+                    <span>                  </span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
@@ -519,27 +508,27 @@
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                      <input name="name" type="text" id="name" placeholder="..." required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                    <input name="email" type="text" id="email"  placeholder="YOUR EMAIL..." required="">
+                    <input name="email" type="text" id="email"  placeholder="..." required="">
                   </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
+                      <input name="subject" type="text" id="subject" placeholder="..." required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="..." required=""></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                      <button type="submit" id="form-submit" class="button">    </button>
                     </fieldset>
                   </div>
                 </div>
@@ -551,20 +540,20 @@
           <div class="right-info">
             <ul>
               <li>
-                <h6>Phone Number</h6>
-                <span>010-020-0340</span>
+                <h6>          </h6>
+                <span>        </span>
               </li>
               <li>
-                <h6>Email Address</h6>
-                <span>info@meeting.edu</span>
+                <h6>            </h6>
+                <span>          </span>
               </li>
               <li>
-                <h6>Street Address</h6>
-                <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
+                <h6>           </h6>
+                <span>           </span>
               </li>
               <li>
-                <h6>Website URL</h6>
-                <span>www.meeting.edu</span>
+                <h6>           </h6>
+                <span>         </span>
               </li>
             </ul>
           </div>
@@ -573,8 +562,8 @@
     </div>
     <div class="footer">
         <p>
-            Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-            <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
+            
+            <br>   <a href="https://templatemo.com" target="_parent" title="free css templates">      </a>
         </p>
     </div>
 </section>

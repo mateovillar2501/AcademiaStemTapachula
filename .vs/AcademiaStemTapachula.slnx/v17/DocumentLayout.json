@@ -1,5 +1,9 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Users\\Maxim\\OneDrive\\Documentos\\Plantillas personalizadas de Office\\Escritorio\\PROYECTO ACADEMIA\\AcademiaStemTapachula\\",
+  "Documents": [],
+=======
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\",
   "Documents": [
     {
@@ -11,10 +15,14 @@
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
+>>>>>>> dd6c72c9a80e84569ef3ad193bc6a7a09415a62d
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
+      "DocumentGroups": []
+=======
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -44,7 +52,7 @@
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-06T18:55:30.678Z",
               "EditorCaption": ""
@@ -52,6 +60,7 @@
           ]
         }
       ]
+>>>>>>> dd6c72c9a80e84569ef3ad193bc6a7a09415a62d
     }
   ]
 }

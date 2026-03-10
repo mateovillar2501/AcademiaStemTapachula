@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\appsettings.json
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\AcademiaStemTapachula.staticwebassets.runtime.json
@@ -34,3 +35,41 @@ C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.pdb
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.genruntimeconfig.cache
 C:\Users\VIAL\source\repos\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\ref\AcademiaStemTapachula.dll
+=======
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\appsettings.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\AcademiaStemTapachula.staticwebassets.runtime.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\AcademiaStemTapachula.staticwebassets.endpoints.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\AcademiaStemTapachula.exe
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\AcademiaStemTapachula.deps.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\AcademiaStemTapachula.runtimeconfig.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\AcademiaStemTapachula.dll
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\bin\Debug\net8.0\AcademiaStemTapachula.pdb
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.AssemblyInfoInputs.cache
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.AssemblyInfo.cs
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.csproj.CoreCompileInputs.cache
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.RazorAssemblyInfo.cache
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.RazorAssemblyInfo.cs
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.sourcelink.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\scopedcss\Areas\Dashboard\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\scopedcss\bundle\AcademiaStemTapachula.styles.css
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\scopedcss\projectbundle\AcademiaStemTapachula.bundle.scp.css
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.dll
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\refint\AcademiaStemTapachula.dll
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.pdb
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\AcademiaStemTapachula.genruntimeconfig.cache
+C:\Users\Emili\OneDrive\Escritorio\STEM\AcademiaStemTapachula\AcademiaStemTapachula\obj\Debug\net8.0\ref\AcademiaStemTapachula.dll
+>>>>>>> c28f46bcae9632c0a8731338ce94c86db2d30691
