@@ -1832,6 +1832,7 @@ wwwroot\landing\fonts\slick.eot
 wwwroot\landing\fonts\slick.svg
 wwwroot\landing\fonts\slick.ttf
 wwwroot\landing\fonts\slick.woff
+wwwroot\landing\images\ACADEMIALOGO.png
 wwwroot\landing\images\apply-bg.jpg
 wwwroot\landing\images\close.png
 wwwroot\landing\images\course-01.jpg
@@ -1842,6 +1843,7 @@ wwwroot\landing\images\course-video.mp4
 wwwroot\landing\images\facts-bg.jpg
 wwwroot\landing\images\heading-bg.jpg
 wwwroot\landing\images\loading.gif
+wwwroot\landing\images\LOGOSTEM.jpg
 wwwroot\landing\images\meeting-01.jpg
 wwwroot\landing\images\meeting-02.jpg
 wwwroot\landing\images\meeting-03.jpg
@@ -1865,6 +1867,7 @@ wwwroot\landing\js\owl-carousel.js
 wwwroot\landing\js\slick-slider.js
 wwwroot\landing\js\tabs.js
 wwwroot\landing\js\video.js
+wwwroot\landing\videos\VIDEOVEX.mp4
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
