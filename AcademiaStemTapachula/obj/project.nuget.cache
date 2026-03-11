@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "rcJwXNfSkSE=",
+  "dgSpecHash": "IGuabY9fQ1E=",
   "success": true,
   "projectFilePath": "C:\\Users\\VIAL\\source\\repos\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
-=======
-  "dgSpecHash": "oU1F4D/dDFU=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Emili\\OneDrive\\Escritorio\\STEM\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
->>>>>>> c28f46bcae9632c0a8731338ce94c86db2d30691
   "expectedPackageFiles": [],
   "logs": []
 }
