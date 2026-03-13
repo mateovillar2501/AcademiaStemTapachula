@@ -29,29 +29,47 @@
     #codeEditor:focus{
         box-shadow: inset 0 0 0 1px #58a6ff;
     }
-
+    .custom-file-upload {
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center; 
+    background-color: coral;
+}
 </style>
 }
 <div class="container-fluid vh-100 d-flex flex-column p-0">
     <div class="row g-0 flex-grow-1">
         
         <nav class="col-md-2 bg-dark text-white border-end p-3 d-flex flex-column shadow">
-            <h5 class="mb-4 border-bottom pb-2">Acciones</h5>
+    
             <button class="btn btn-primary mb-3 w-100" onclick="renderCode()">
-                <i class="bi bi-play-fill"></i> Ejecutar Código
+                <i class="fas fa-code"></i> Ejecutar Código 
             </button>
+            <div class="pb-3">
+            <!-- Input oculto -->
+            <input type="file" id="file-upload" style="display:none;" />
+
+            <!-- Botón personalizado que dispara el input -->
+            <label for="file-upload" class="custom-file-upload">
+                SELECCIONA LA CARATULA<i class="far fa-images fa-1x"></i>
+            </label>
+
+            </div>
+            <hr />
             <button class="btn btn-outline-light mb-3 w-100" onclick="clearEditor()">
-                <i class="bi bi-trash"></i> Limpiar
+                <i class="fas fa-trash"></i> Limpiar
             </button>
             <hr>
             <button class="btn btn-success mb-3 w-100" onclick="renderCode()">
-                <i class="bi bi-play-fill"></i> AGREGAR CURSO
+                <i class="fas fa-check"></i> AGREGAR CURSO
             </button>
-            
 
         </nav>
 
-        <main class="col-md-5 d-flex flex-column border-end ">
+        <main class="col-md-4 d-flex flex-column border-end " >
             <div class="bg-light p-2 rounded-3 d-flex border-white justify-content-between align-items-center">
                 <span class="fw-bold px-2">Editor de Código</span>
                 <span class="badge bg-primary text-dark">HTML / CSS</span>
@@ -61,7 +79,7 @@
                       style="resize: none; background-color: #000110;"></textarea>
         </main>
 
-        <section class="col-md-5 d-flex flex-column bg-secondary rounded-3">
+        <section class="col-md-6 d-flex flex-column bg-secondary rounded-3">
             <div class="bg-light p-2 border-bottom rounded-3">
                 <span class="badge fw-bold px-2 bg-primary text-dark">Vista Previa</span>
             </div>
