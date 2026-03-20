@@ -33,7 +33,7 @@
     @* <link rel="stylesheet" href="~/AcademiaStemTapachula.styles.css" asp-append-version="true" /> *@
     @await RenderSectionAsync("Styles", required: false)
 </head>
-    <body>
+<body>
 
         <div class="container-fluid position-relative d-flex p-0">
 
@@ -50,10 +50,10 @@
                         </a>
                         <div class="d-flex align-items-center ms-4 mb-4">
                             <div class="position-relative">
-                                 <i class="fas fa-user-tie fa-3x"></i>
+                                 <i class="fas fa-user-tie fa-2x"></i>
                             </div>  
                             <div class="ms-3">
-                                <h6 class="mb-0">Administrador</h6>
+                                <h6 class="mb-0 small">Administrador</h6>
                             </div>
                         </div>
                         <div class="navbar-nav w-100">
@@ -97,7 +97,7 @@
                 </div>
             </nav>
 
-            <div class="container-fluid pt-4 px-4">
+            <div class="container-fluid py-4 px-4">
 
                 @RenderBody()
 

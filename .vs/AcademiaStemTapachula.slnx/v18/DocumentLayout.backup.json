@@ -7,32 +7,40 @@
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\cursos\\nuevocurso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\cursos\\nuevocurso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\cursos\\nuevocurso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\cursos\\nuevocurso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\wwwroot\\landing\\js\\isotope.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\wwwroot\\landing\\js\\isotope.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\wwwroot\\landing\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\wwwroot\\landing\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\wwwroot\\landing\\js\\isotope.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\wwwroot\\landing\\js\\isotope.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 255,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NuevoCurso.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
-              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
-              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
-              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAuwEYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T23:05:53.388Z",
-              "IsPinned": true
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -65,82 +60,126 @@
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "AcademiaStemTapachula\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACECAAAAAAAAAAAAACgCAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T23:06:05.089Z",
+              "WhenOpened": "2026-03-12T19:56:19.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T19:50:55.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T19:50:14.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAvwEEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-12T19:50:07.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "custom.js",
+              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\landing\\js\\custom.js",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\wwwroot\\landing\\js\\custom.js",
+              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\landing\\js\\custom.js",
+              "RelativeToolTip": "AcademiaStemTapachula\\wwwroot\\landing\\js\\custom.js",
+              "ViewState": "AgIAABQAAAAAAAAAAAAvwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-12T19:48:07.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "isotope.js",
+              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\landing\\js\\isotope.js",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\wwwroot\\landing\\js\\isotope.js",
+              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\landing\\js\\isotope.js",
+              "RelativeToolTip": "AcademiaStemTapachula\\wwwroot\\landing\\js\\isotope.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-12T19:32:39.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "isotope.min.js",
+              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\landing\\js\\isotope.min.js",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\wwwroot\\landing\\js\\isotope.min.js",
+              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\landing\\js\\isotope.min.js",
+              "RelativeToolTip": "AcademiaStemTapachula\\wwwroot\\landing\\js\\isotope.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-12T19:31:59.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T23:05:53.441Z"
+              "WhenOpened": "2026-03-11T21:27:26.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "NuevoCurso.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
+              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-11T21:27:24.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CursosController.cs",
               "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
               "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
               "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T23:05:53.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T23:05:53.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "AcademiaStemTapachula\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T23:05:53.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T23:05:53.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T23:05:53.457Z"
+              "WhenOpened": "2026-03-11T20:28:28.816Z"
             }
           ]
         }
