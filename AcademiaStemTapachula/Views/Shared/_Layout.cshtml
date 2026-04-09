@@ -20,6 +20,8 @@
     @* <link rel="stylesheet" href="~/AcademiaStemTapachula.styles.css" asp-append-version="true" /> *@
 </head>
 <body>
+<div class=" position-relative ">
+
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
@@ -42,7 +44,6 @@
                             <li class="scroll-to-section"><a href="#courses">Cursos</a></li>
                             <li class="scroll-to-section"><a href="#contact">Contactanos</a></li>
 
-                            <li class=""><a asp-area="Dashboard" asp-action="Login" asp-controller="Login">Dashboard</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -57,6 +58,8 @@
         @RenderBody()
     </main>
 
+
+ </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
