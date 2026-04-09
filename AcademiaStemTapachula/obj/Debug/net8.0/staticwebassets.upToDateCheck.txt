@@ -4,6 +4,7 @@ wwwroot\dashboard\css\style.css
 wwwroot\dashboard\img\testimonial-1.jpg
 wwwroot\dashboard\img\testimonial-2.jpg
 wwwroot\dashboard\img\user.jpg
+wwwroot\dashboard\js\App\Cursos\AgregarCurso.js
 wwwroot\dashboard\js\main.js
 wwwroot\dashboard\lib\chart\chart.min.js
 wwwroot\dashboard\lib\easing\easing.js
@@ -1925,3 +1926,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\dashboard\js\App\Cursos\ListaCursos.js
