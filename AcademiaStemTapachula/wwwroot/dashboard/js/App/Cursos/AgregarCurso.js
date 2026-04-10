@@ -1,4 +1,26 @@
 ﻿//MODULO DE CONFIGURACIÓN PARA AGREGAR UN CURSO
+let textarea = document.getElementById("codeEditor");
+
+
+
+$('#FormularioCodigo').on('submit', function (e) {
+    e.preventDefault();
+
+    validarHTML();
+
+    if (!validarHTML(textarea.value)) {
+        e.preventDefault();
+        alert("Debes ingresar código HTML válido");
+        document.getElementById("Enviar").disabled = true;
+        document.getElementById('previewFrame').src = 'about:blank';
+    }
+    else {
+        document.getElementById("Enviar").disabled = false;
+        renderCode();
+
+    }
+});
+
 
 function renderCode() {
 
@@ -11,6 +33,7 @@ function renderCode() {
     doc.write(code);
     doc.close();
 }
+
 
 function clearEditor() {
 
@@ -36,3 +59,24 @@ document.getElementById("codeEditor").addEventListener("keydown", function (e) {
     }
 
 });
+
+function validarHTML(texto) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(texto, "text/html");
+
+    // Verifica si hay al menos un elemento HTML real
+    const tieneElementos = doc.body && doc.body.children.length > 0;
+
+    // Verifica que exista al menos una etiqueta <...>
+    const tieneTags = /<[^>]+>/.test(texto);
+
+    return tieneElementos && tieneTags;
+    Validacion();
+
+}
+
+
+
+
+
+
