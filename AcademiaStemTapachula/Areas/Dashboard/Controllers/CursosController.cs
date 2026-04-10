@@ -16,6 +16,10 @@ namespace AcademiaStemTapachula.Areas.Dashboard.Controllers
         {
             return View();
         }
+        public ActionResult ListaCursos()
+        {
+            return View();
+        }
 
         // GET: CursosController/Details/5
         public ActionResult Details(int id)
