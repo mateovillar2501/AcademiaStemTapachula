@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
         "packagesPath": "C:\\Users\\PC10\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\obj\\",
+=======
+    "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
+        "projectName": "AcademiaStemTapachula",
+        "projectPath": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\obj\\",
+>>>>>>> 2334848 (DSA)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\PC10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2334848 (DSA)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +44,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+          "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> 2334848 (DSA)
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,16 +66,23 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
+<<<<<<< HEAD
         "SdkAnalysisLevel": "10.0.200"
+=======
+        "SdkAnalysisLevel": "9.0.300"
+>>>>>>> 2334848 (DSA)
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+<<<<<<< HEAD
             "HtmlSanitizer": {
               "target": "Package",
               "version": "[9.0.892, )"
             },
+=======
+>>>>>>> 2334848 (DSA)
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -86,7 +115,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 2334848 (DSA)
         }
       }
     }

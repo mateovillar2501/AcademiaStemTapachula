@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
+<<<<<<< HEAD
       "AngleSharp/0.17.1": {
         "type": "package",
         "dependencies": {
@@ -52,6 +53,8 @@
           }
         }
       },
+=======
+>>>>>>> 2334848 (DSA)
       "Microsoft.EntityFrameworkCore/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -318,6 +321,7 @@
             "related": ".xml"
           }
         }
+<<<<<<< HEAD
       },
       "System.Buffers/4.5.1": {
         "type": "package",
@@ -368,10 +372,13 @@
             "rid": "win"
           }
         }
+=======
+>>>>>>> 2334848 (DSA)
       }
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "AngleSharp/0.17.1": {
       "sha512": "5MPI4bbixlwxb0W/smOMeIR+QlxMy5/5jD+WnIAw4pBC+7AhLPe5bS3cLgQMJyvd6q0A48sG+uYOt/ep406GLA==",
       "type": "package",
@@ -433,6 +440,8 @@
         "lib/netstandard2.0/HtmlSanitizer.xml"
       ]
     },
+=======
+>>>>>>> 2334848 (DSA)
     "Microsoft.EntityFrameworkCore/8.0.0": {
       "sha512": "SoODat83pGQUpWB9xULdMX6tuKpq/RTXDuJ2WeC1ldUKcKzLkaFJD1n+I0nOLY58odez/e7z8b6zdp235G/kyg==",
       "type": "package",
@@ -871,6 +880,7 @@
         "pomelo.entityframeworkcore.mysql.8.0.0.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
+<<<<<<< HEAD
     },
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
@@ -966,34 +976,55 @@
         "system.text.encoding.codepages.nuspec",
         "useSharedDesignerContext.txt"
       ]
+=======
+>>>>>>> 2334848 (DSA)
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "HtmlSanitizer >= 9.0.892",
+=======
+>>>>>>> 2334848 (DSA)
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "MySqlConnector >= 2.5.0",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.0"
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\PC10\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
+>>>>>>> 2334848 (DSA)
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
       "projectName": "AcademiaStemTapachula",
       "projectPath": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
       "packagesPath": "C:\\Users\\PC10\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
+      "projectName": "AcademiaStemTapachula",
+      "projectPath": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\AcademiaStemTapachula.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\obj\\",
+>>>>>>> 2334848 (DSA)
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\PC10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2334848 (DSA)
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1002,6 +1033,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+        "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> 2334848 (DSA)
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1020,16 +1055,23 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
+<<<<<<< HEAD
       "SdkAnalysisLevel": "10.0.200"
+=======
+      "SdkAnalysisLevel": "9.0.300"
+>>>>>>> 2334848 (DSA)
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+<<<<<<< HEAD
           "HtmlSanitizer": {
             "target": "Package",
             "version": "[9.0.892, )"
           },
+=======
+>>>>>>> 2334848 (DSA)
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -1062,7 +1104,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 2334848 (DSA)
       }
     }
   }
