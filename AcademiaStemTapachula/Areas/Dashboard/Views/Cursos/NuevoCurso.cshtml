@@ -119,58 +119,86 @@
         }
 
         #previewFrame {
-            background-color: white;
+            background-color: black;
         }
 
         hr {
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             opacity: 1;
         }
+        /* === RESET CONTROLADO PARA FORM (Bootstrap safe) === */
+        form {
+            margin: 0 !important;
+            padding: 0 !important;
+            border: 0 !important;
+            background: transparent !important;
+            display: block;
+            width: 100%;
+            box-shadow: none !important;
+        }
+
+   
     </style>
 
 }
 
-<div class="container-fluid vh-100 d-flex flex-column p-0">
-    <div class="row g-0 flex-grow-1">
-        
-        <nav class="col-md-2 bg-dark text-white border-end p-3 d-flex flex-column shadow">
-            <h5 class="mb-4 border-bottom pb-2">Acciones</h5>
-            <button class="btn btn-primary mb-3 w-100" onclick="renderCode()">
-                <i class="bi bi-play-fill"></i> Ejecutar Código
-            </button>
-            <button class="btn btn-outline-light mb-3 w-100" onclick="clearEditor()">
-                <i class="bi bi-trash"></i> Limpiar
-            </button>
-            <hr>
-            <button class="btn btn-success mb-3 w-100" onclick="renderCode()">
-                <i class="bi bi-play-fill"></i> AGREGAR CURSO
-            </button>
-            
+<div class="container-fluid vh-100 p-0">
 
-        </nav>
+    <form id="FormularioCodigo" class="h-100">
 
-        <main class="col-md-5 d-flex flex-column border-end ">
-            <div class="bg-light p-2 rounded-3 d-flex border-white justify-content-between align-items-center">
-                <span class="fw-bold px-2">Editor de Código</span>
-                <span class="badge bg-primary text-dark">HTML / CSS</span>
-            </div>
-            <textarea id="codeEditor" class="form-control rounded-3 flex-grow-1 border-0 font-monospace p-3"
-                      placeholder="Escribe o pega tu código aquí..."
-                      style="resize: none; background-color: #000110;"></textarea>
-        </main>
+        <div class="row g-0 h-100">
 
-        <section class="col-md-5 d-flex flex-column bg-secondary rounded-3">
-            <div class="bg-light p-2 border-bottom rounded-3">
-                <span class="badge fw-bold px-2 bg-primary text-dark">Vista Previa</span>
-            </div>
-            <iframe id="previewFrame" class="w-100 h-100 border-0 shadow-sm"></iframe>
-        </section>
-    </div>
+            <!-- NAV -->
+            <nav class="col-md-2 bg-dark text-white border-end p-3 d-flex flex-column shadow h-100">
+
+                <h5 class="mb-4 border-bottom pb-2">Acciones</h5>
+
+                <button type="submit" class="btn btn-primary mb-3 w-100" id="Guardar">
+                    Ejecutar Código
+                </button>
+
+                <button type="button" class="btn btn-outline-light mb-3 w-100" onclick="clearEditor()">
+                    Limpiar
+                </button>
+
+                <hr>
+
+                <button type="button" class="btn btn-success mb-3 w-100" disabled id="Enviar">
+                    AGREGAR CURSO
+                </button>
+
+            </nav>
+
+            <!-- EDITOR -->
+            <main class="col-md-5 d-flex flex-column border-end h-100">
+
+                <div class="bg-light p-2 rounded-3 d-flex border-white justify-content-between align-items-center"> <span class="fw-bold px-2">Editor de Código</span> <span class="badge bg-primary text-dark">HTML / CSS</span> </div> 
+                <textarea id="codeEditor" class="form-control rounded-3 flex-grow-1 border-0 font-monospace p-3" placeholder="Escribe o pega tu código aquí..." style="resize: none; background-color: #000110;"></textarea>
+
+            </main>
+
+            <!-- PREVIEW -->
+            <section class="col-md-5 d-flex flex-column bg-secondary h-100">
+
+                <div class="bg-light p-2 border-bottom">
+                    <span class="badge bg-primary text-dark">Vista Previa</span>
+                </div>
+
+                <iframe id="previewFrame" class="w-100 flex-grow-1 border-0 "></iframe>
+
+            </section>
+
+        </div>
+
+    </form>
+
 </div>
 
 
-
+    
 @section Scripts {
+
+
     <script src="~/dashboard/js/App/Cursos/AgregarCurso.js"></script>
 
 

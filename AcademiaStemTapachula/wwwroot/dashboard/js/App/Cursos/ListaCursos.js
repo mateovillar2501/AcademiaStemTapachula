@@ -36,10 +36,10 @@ function renderCursos() {
                             <h5 class="card-title">${curso.titulo}</h5>
                             <p class="card-text text-muted">${curso.descripcion}</p>
                             <div class="mt-auto d-flex justify-content-between">
-                                <button class="btn btn-edit px-4" onclick="editarCurso(${curso.id})">
+                                <button class="btn btn-edit px-5" onclick="editarCurso(${curso.id})">
                                     Editar
                                 </button>
-                                <button class="btn btn-delete px-4" onclick="eliminarCurso(${curso.id})">
+                                <button class="btn btn-delete px-5" onclick="eliminarCurso(${curso.id})">
                                     Eliminar
                                 </button>
                             </div>

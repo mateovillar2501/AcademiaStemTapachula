@@ -1,7 +1,7 @@
 ﻿
 
 using Microsoft.EntityFrameworkCore;
-using AcademiaStemTapachula.Areas.Dashboard.Models;
+using AcademiaStemTapachula.Models;
 
 namespace AcademiaStemTapachula.Data;   
 
