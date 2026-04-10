@@ -1,13 +1,6 @@
-@echo off
-echo ===================================
-echo ACTUALIZANDO PROYECTO DESDE DEVELOP
-echo ===================================
-
-cd /d "%~dp0\.."
+cd C:\Users\PC\OneDrive\Pictures\A-STEMPROYECTO\AcademiaStemTapachula
 
 git checkout develop
-git pull origin develop
-
-echo.
-echo Proyecto actualizado correctamente
-pause
+git fetch origin
+git rebase origin/main
+git push origin develop
