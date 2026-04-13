@@ -136,7 +136,46 @@
             width: 100%;
             box-shadow: none !important;
         }
+        /* Estilos específicos para el Modal Robotizado */
+        .glass-modal {
+            background-color: var(--robot-dark-bg) !important;
+            border: 1px solid var(--robot-blue) !important;
+            box-shadow: 0 0 30px rgba(0, 210, 255, 0.2);
+        }
 
+        .font-orbitron {
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .robot-input {
+            background-color: rgba(15, 23, 42, 0.8) !important;
+            border: 1px solid #334155 !important;
+            color: var(--text-main) !important;
+            transition: all 0.3s ease;
+        }
+
+        .robot-input:focus {
+            border-color: var(--robot-blue) !important;
+            box-shadow: 0 0 10px rgba(0, 210, 255, 0.3) !important;
+            outline: none;
+        }
+
+        .preview-container {
+            background-color: #050810;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #imgPreview {
+            max-height: 180px;
+            object-fit: cover;
+        }
+
+        .text-dim { color: var(--text-dim); }
+        .uppercase { letter-spacing: 2px; font-size: 0.75rem; font-weight: bold; }
    
     </style>
 
@@ -157,7 +196,7 @@
                     Ejecutar Código
                 </button>
 
-                <button type="button" class="btn btn-outline-light mb-3 w-100" onclick="clearEditor()">
+                <button type="button" class="btn btn-outline-light mb-3 w-100" onclick="limpiarEditor()">
                     Limpiar
                 </button>
 
@@ -193,7 +232,38 @@
     </form>
 
 </div>
+<div class="modal fade" id="modalAgregarCurso" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content glass-modal border-info">
+            <div class="modal-header border-secondary text-info">
+                <h5 class="modal-title font-orbitron" id="modalLabel uppercase">AÑADIR NUEVO CURSO</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="formNuevoCurso">
+                    <div class="mb-4">
+                        <label class="form-label text-dim small uppercase">Nombre del Curso</label>
+                        <input type="text" class="form-control robot-input" id="nombreCurso" placeholder="Ej: Master en C++ Quántico" required>
+                    </div>
 
+                    <div class="mb-3">
+                        <label class="form-label text-dim small uppercase">Imagen de Portada</label>
+                        <input type="file" class="form-control robot-input" id="inputImagen" accept="image/*" required>
+                    </div>
+
+                    <div class="preview-container text-center p-3 border border-secondary rounded">
+                        <p class="text-dim small mb-2">VISTA PREVIA DE PORTADA</p>
+                        <img id="imgPreview" src="https://via.placeholder.com/300x180/0f172a/00d2ff?text=SIN+IMAGEN" class="img-fluid rounded border border-info shadow-sm" alt="Preview">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">CANCELAR</button>
+                <button type="button" class="btn btn-primary" id="btnGuardarCurso">REGISTRAR CURSO</button>
+            </div>
+        </div>
+    </div>
+</div>
 
     
 @section Scripts {
