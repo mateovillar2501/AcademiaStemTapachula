@@ -5,7 +5,7 @@ let textarea = document.getElementById("codeEditor");
 
 $('#FormularioCodigo').on('submit', function (e) {
     e.preventDefault();
-
+ 
     validarHTML();
 
     if (!validarHTML(textarea.value)) {
