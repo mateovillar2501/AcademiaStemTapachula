@@ -1,6 +1,38 @@
 ﻿//MODULO DE CONFIGURACIÓN PARA AGREGAR UN CURSO
 let textarea = document.getElementById("codeEditor");
 
+document.addEventListener('DOMContentLoaded', function () {
+    const inputImagen = document.getElementById('inputImagen');
+    const imgPreview = document.getElementById('imgPreview');
+
+    // Escuchar el cambio en el input de archivo
+    inputImagen.addEventListener('change', function () {
+        const file = this.files[0];
+
+        if (file) {
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                // Cambiar el src de la imagen por el resultado de la lectura
+                imgPreview.setAttribute('src', e.target.result);
+                imgPreview.classList.add('border-info'); // Resaltar borde al cargar
+            }
+
+            reader.readAsDataURL(file);
+        } else {
+            // Volver al placeholder si no hay archivo
+            imgPreview.setAttribute('src', '');
+        }
+    });
+
+    // Acción para abrir el modal desde tu botón "AGREGAR CURSO"
+    // (Asegúrate de quitar el 'disabled' de tu botón verde en el Nav si quieres probarlo)
+    const btnActivarModal = document.getElementById('Enviar');
+    btnActivarModal.addEventListener('click', function () {
+        const myModal = new bootstrap.Modal(document.getElementById('modalAgregarCurso'));
+        myModal.show();
+    });
+});
 
 
 $('#FormularioCodigo').on('submit', function (e) {
@@ -16,13 +48,13 @@ $('#FormularioCodigo').on('submit', function (e) {
     }
     else {
         document.getElementById("Enviar").disabled = false;
-        renderCode();
+        VistaPrevia();
 
     }
 });
 
 
-function renderCode() {
+function VistaPrevia() {
 
     const code = document.getElementById("codeEditor").value;
     const frame = document.getElementById("previewFrame");
@@ -35,7 +67,7 @@ function renderCode() {
 }
 
 
-function clearEditor() {
+function limpiarEditor() {
 
     location.reload();
 }
@@ -71,7 +103,6 @@ function validarHTML(texto) {
     const tieneTags = /<[^>]+>/.test(texto);
 
     return tieneElementos && tieneTags;
-    Validacion();
 
 }
 
