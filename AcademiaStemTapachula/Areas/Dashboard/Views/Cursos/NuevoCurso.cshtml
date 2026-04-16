@@ -159,10 +159,23 @@
             box-shadow: 0 0 10px rgba(0, 210, 255, 0.3) !important;
             outline: none;
         }
+        .robot-input::file-selector-button {
+            background-color: #0ea5e9; /* azul */
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            margin-right: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
 
+        .robot-input::file-selector-button:hover {
+            background-color: #0284c7; /* azul más oscuro */
+        }
         .preview-container {
             background-color: #050810;
-            min-height: 200px;
+            min-height: 400px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -176,6 +189,69 @@
 
         .text-dim { color: var(--text-dim); }
         .uppercase { letter-spacing: 2px; font-size: 0.75rem; font-weight: bold; }
+        /* Contenedor del editor para manejar la superposición */
+
+        .editor-wrapper {
+            position: relative;
+            background-color: #050810;
+        }
+
+        #codeEditor, #highlighting {
+            margin: 0;
+            padding: 20px;
+            border: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            tab-size: 4;
+            font-family: "Fira Code", Consolas, monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        #codeEditor {
+            color: transparent;
+            background: transparent !important;
+            caret-color: #aeafad; /* Color del cursor de VSC */
+            z-index: 1;
+            outline: none;
+            /* Forzar que no haya suavizado de fuente distinto */
+            -webkit-text-fill-color: transparent;
+        }
+
+        .editor-wrapper {
+            background-color: #1e1e1e; /* Fondo oficial VSC */
+            border: 1px solid #3e3e42;
+        }
+        /* Colores inspirados en VS Code Dark+ */
+        #highlighting {
+            color: #9cdcfe; /* Color por defecto (azul claro/texto) */
+            background-color: #1e1e1e; /* El gris oscuro clásico de VSC */
+        }
+
+        /* Símbolos <, >, </, /> */
+        .hl-bracket { color: #808080; } 
+
+        /* Nombres de etiquetas: div, html, body, p */
+        .hl-tag { color: #569cd6; } 
+
+        /* Atributos: class, id, src, href */
+        .hl-attr { color: #9cdcfe; } 
+
+        /* Valores: "container", "index.html" */
+        .hl-string { color: #ce9178; } 
+
+        /* Comentarios: */
+        .hl-comment { color: #6a9955; }
+
+        /* Entidades especiales o doctype */
+        .hl-doctype { color: #808080; font-style: italic; }
+
+        /* Adicional para CSS (si detecta llaves) */
+        .hl-selector { color: #d7ba7d; }
    
     </style>
 
@@ -191,6 +267,7 @@
             <nav class="col-md-2 bg-dark text-white border-end p-3 d-flex flex-column shadow h-100">
 
                 <h5 class="mb-4 border-bottom pb-2">Acciones</h5>
+
 
                 <button type="submit" class="btn btn-primary mb-3 w-100" id="Guardar">
                     Ejecutar Código
@@ -209,13 +286,19 @@
             </nav>
 
             <!-- EDITOR -->
-            <main class="col-md-5 d-flex flex-column border-end h-100">
-
-                <div class="bg-light p-2 rounded-3 d-flex border-white justify-content-between align-items-center"> <span class="fw-bold px-2">Editor de Código</span> <span class="badge bg-primary text-dark">HTML / CSS</span> </div> 
-                <textarea id="codeEditor" class="form-control rounded-3 flex-grow-1 border-0 font-monospace p-3" placeholder="Escribe o pega tu código aquí..." style="resize: none; background-color: #000110;"></textarea>
-
+            <main class="col-md-5 d-flex flex-column border-end h-100" style="position: relative;">
+                <div class="bg-light p-2 d-flex justify-content-between align-items-center"> 
+                    <span class="fw-bold px-2">Editor de Código</span> 
+                    <span class="badge bg-primary text-dark">HTML / CSS</span> 
+                </div> 
+    
+                <div class="editor-wrapper flex-grow-1" style="position: relative; overflow: hidden;">
+                    <pre id="highlighting" aria-hidden="true">
+                        <code class="language-html" id="highlighting-content"></code>
+                    </pre>
+                    <textarea id="codeEditor" class="form-control" placeholder="Escribe tu código aquí..." spellcheck="false" oninput="updateHighlight(this.value)" onscroll="syncScroll(this)"></textarea>
+                </div>
             </main>
-
             <!-- PREVIEW -->
             <section class="col-md-5 d-flex flex-column bg-secondary h-100">
 
@@ -224,7 +307,7 @@
                 </div>
 
                 <iframe id="previewFrame" class="w-100 flex-grow-1 border-0 "></iframe>
-
+                    
             </section>
 
         </div>
@@ -232,18 +315,18 @@
     </form>
 
 </div>
-<div class="modal fade" id="modalAgregarCurso" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+<div class="modal fade" id="modalAgregarCurso" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false ">
     <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content glass-modal border-info">
+        <div class="modal-content glass-modal border-info"> 
             <div class="modal-header border-secondary text-info">
                 <h5 class="modal-title font-orbitron" id="modalLabel uppercase">AÑADIR NUEVO CURSO</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <form id="formNuevoCurso">
-                    <div class="mb-4">
-                        <label class="form-label text-dim small uppercase">Nombre del Curso</label>
+                    <div class="mb-4 form-floating">
                         <input type="text" class="form-control robot-input" id="nombreCurso" placeholder="Ej: Master en C++ Quántico" required>
+                        <label class="form-label uppercase">Nombre del Curso</label>
                     </div>
 
                     <div class="mb-3">
@@ -253,21 +336,24 @@
 
                     <div class="preview-container text-center p-3 border border-secondary rounded">
                         <p class="text-dim small mb-2">VISTA PREVIA DE PORTADA</p>
-                        <img id="imgPreview" src="https://via.placeholder.com/300x180/0f172a/00d2ff?text=SIN+IMAGEN" class="img-fluid rounded border border-info shadow-sm" alt="Preview">
+                        <img id="imgPreview" src="https://placehold.co/300x180/0f172a/00d2ff?text=SIN+IMAGEN" class="img-fluid rounded border border-info shadow-lg" alt="Preview">
                     </div>
                 </form>
             </div>
             <div class="modal-footer border-0">
                 <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">CANCELAR</button>
-                <button type="button" class="btn btn-primary" id="btnGuardarCurso">REGISTRAR CURSO</button>
+                <button type="button" class="btn btn-primary" id="btnGuardarCurso" >REGISTRAR CURSO</button>
             </div>
         </div>
+
     </div>
 </div>
 
     
 @section Scripts {
 
+
+    <script src="~/js/sweetalert2@11.js"></script>
 
     <script src="~/dashboard/js/App/Cursos/AgregarCurso.js"></script>
 

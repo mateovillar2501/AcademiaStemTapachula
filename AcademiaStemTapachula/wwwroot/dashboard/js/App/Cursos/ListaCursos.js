@@ -58,14 +58,33 @@ function editarCurso(id) {
 }
 
 function eliminarCurso(id) {
-    if (confirm("¿Estás seguro de que deseas eliminar este curso tecnológico?")) {
-        const index = cursos.findIndex(c => c.id === id);
-        if (index > -1) {
-            cursos.splice(index, 1);
-            renderCursos(); // Volver a pintar la lista
-            console.log(`Curso ${id} eliminado.`);
+    const curso = cursos.find(c => c.id === id);
+
+    Swal.fire({
+        title: '¿Eliminar curso?',
+        text: `Vas a eliminar: ${curso.titulo}`,
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#3085d6',
+        confirmButtonText: 'Eliminar',
+        cancelButtonText: 'Cancelar'
+    }).then((result) => {
+        if (result.isConfirmed) {
+
+            const index = cursos.findIndex(c => c.id === id);
+            if (index > -1) {
+                cursos.splice(index, 1);
+                renderCursos(); 
+            }
+
+            Swal.fire({
+                title: 'Eliminado',
+                text: 'El curso ha sido eliminado correctamente',
+                icon: 'success'
+            });
         }
-    }
+    });
 }
 
 // Inicializar
