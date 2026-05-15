@@ -6,7 +6,7 @@ const cursos = [
         id: 1,
         titulo: "Introducción a Arduino",
         descripcion: "Aprende las bases de la electrónica y programación de microcontroladores.",
-        imagen: "https://images.unsplash.com/photo-1553448995-f19c327230c7?auto=format&fit=crop&q=80&w=800"
+        imagen: "https://mielectronicafacil.com/wp-content/uploads/2020/05/Arduino.jpg"
     },
     {
         id: 2,
