@@ -1,5 +1,8 @@
-﻿namespace AcademiaStemTapachula.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+namespace AcademiaStemTapachula.Models
 {
+    [Table("cursos")]
+
     public class Cursos
     {
 

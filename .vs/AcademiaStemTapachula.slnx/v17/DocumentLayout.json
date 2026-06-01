@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc\\onedrive\\pictures\\a-stemproyecto\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\models\\cursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\models\\cursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc\\onedrive\\pictures\\a-stemproyecto\\academiastemtapachula\\academiastemtapachula\\wwwroot\\dashboard\\js\\app\\cursos\\agregarcurso.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\wwwroot\\dashboard\\js\\app\\cursos\\agregarcurso.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc\\onedrive\\pictures\\a-stemproyecto\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc\\onedrive\\pictures\\a-stemproyecto\\academiastemtapachula\\academiastemtapachula\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc\\onedrive\\pictures\\a-stemproyecto\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\viewmodels\\cursosvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\viewmodels\\cursosvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc\\onedrive\\pictures\\a-stemproyecto\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\cursos\\nuevocurso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\cursos\\nuevocurso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CursosVM.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\ViewModels\\CursosVM.cs",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\ViewModels\\CursosVM.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\ViewModels\\CursosVM.cs",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\ViewModels\\CursosVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T16:27:54.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cursos.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Models\\Cursos.cs",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Models\\Cursos.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Models\\Cursos.cs",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Models\\Cursos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T16:27:51.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgregarCurso.js",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\dashboard\\js\\App\\Cursos\\AgregarCurso.js",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\wwwroot\\dashboard\\js\\App\\Cursos\\AgregarCurso.js",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\dashboard\\js\\App\\Cursos\\AgregarCurso.js",
+              "RelativeToolTip": "AcademiaStemTapachula\\wwwroot\\dashboard\\js\\App\\Cursos\\AgregarCurso.js",
+              "ViewState": "AgIAAKEAAAAAAAAAAADwv/MAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-15T16:37:36.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NuevoCurso.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
+              "ViewState": "AgIAAE4BAAAAAAAAAADwv1kBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-15T16:28:00.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CursosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
+              "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAuwMYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T16:27:46.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AcademiaStemTapachula\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Pictures\\A-STEMPROYECTO\\AcademiaStemTapachula\\AcademiaStemTapachula\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AcademiaStemTapachula\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T16:37:18.31Z",
+              "EditorCaption": ""
             }
           ]
         }

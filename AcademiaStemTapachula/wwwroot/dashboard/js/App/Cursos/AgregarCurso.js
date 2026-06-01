@@ -163,6 +163,87 @@ document.getElementById("codeEditor").addEventListener("keydown", function (e) {
 
 });
 
+document.getElementById("btnGuardarCurso")
+    .addEventListener("click", async () => {
+
+        try {
+
+            const nombreCurso =
+                document.getElementById("nombreCurso").value;
+
+            const codigoHTML =
+                document.getElementById("codeEditor").value;
+
+            const imagen =
+                document.getElementById("inputImagen").files[0];
+
+            if (!nombreCurso.trim()) {
+
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Debes ingresar un nombre'
+                });
+
+                return;
+            }
+
+            if (!imagen) {
+
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Debes seleccionar una portada'
+                });
+
+                return;
+            }
+
+            const formData = new FormData();
+
+            formData.append("NombreCurso", nombreCurso);
+            formData.append("CodigoHTML", codigoHTML);
+            formData.append("Imagen", imagen);
+
+            const respuesta = await fetch(
+                '/Dashboard/Cursos/GuardarCurso',
+                {
+                    method: 'POST',
+                    body: formData
+                });
+
+            const data = await respuesta.json();
+
+            console.log(data);
+
+            if (!respuesta.ok) {
+
+                Swal.fire({
+                    icon: 'error',
+                    title: data.mensaje
+                });
+
+                return;
+            }
+
+            Swal.fire({
+                icon: 'success',
+                title: 'Curso guardado correctamente'
+            });
+
+        }
+        catch (error) {
+
+            console.error("ERROR COMPLETO:", error);
+
+            Swal.fire({
+                icon: 'error',
+                title: 'Error inesperado'
+            });
+
+        }
+
+    });
+
+
 
 
 
