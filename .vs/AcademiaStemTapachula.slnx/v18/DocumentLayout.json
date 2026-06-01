@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\cursos\\listacursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\cursos\\listacursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\wwwroot\\dashboard\\js\\app\\cursos\\listacursos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\wwwroot\\dashboard\\js\\app\\cursos\\listacursos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\areas\\dashboard\\views\\cursos\\listacursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|solutionrelative:academiastemtapachula\\areas\\dashboard\\views\\cursos\\listacursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54FB5CEE-D384-CAD8-234B-CBD10CF919DD}|AcademiaStemTapachula\\AcademiaStemTapachula.csproj|c:\\users\\pc10\\documents\\stemprogram\\academiastemtapachula\\academiastemtapachula\\wwwroot\\dashboard\\js\\app\\cursos\\agregarcurso.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -66,8 +66,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 255,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 8,
@@ -130,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ListaCursos.cshtml",
               "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\ListaCursos.cshtml",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\ListaCursos.cshtml",
@@ -209,7 +213,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\Views\\Shared\\_Layout.cshtml",
@@ -222,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ListaCursos.js",
               "DocumentMoniker": "C:\\Users\\PC10\\Documents\\STEMPROGRAM\\AcademiaStemTapachula\\AcademiaStemTapachula\\wwwroot\\dashboard\\js\\App\\Cursos\\ListaCursos.js",
               "RelativeDocumentMoniker": "AcademiaStemTapachula\\wwwroot\\dashboard\\js\\App\\Cursos\\ListaCursos.js",
@@ -230,8 +234,7 @@
               "RelativeToolTip": "AcademiaStemTapachula\\wwwroot\\dashboard\\js\\App\\Cursos\\ListaCursos.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-04-10T16:21:11.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T16:21:11.863Z"
             },
             {
               "$type": "Document",
