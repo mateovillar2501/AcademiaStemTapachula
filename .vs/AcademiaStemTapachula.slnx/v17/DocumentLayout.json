@@ -50,8 +50,7 @@
               "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\ViewModels\\CursosVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T16:27:54.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T16:27:54.243Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "AcademiaStemTapachula\\wwwroot\\dashboard\\js\\App\\Cursos\\AgregarCurso.js",
               "ViewState": "AgIAAKEAAAAAAAAAAADwv/MAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-15T16:37:36.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T16:37:36.784Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Views\\Cursos\\NuevoCurso.cshtml",
               "ViewState": "AgIAAE4BAAAAAAAAAADwv1kBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-15T16:28:00.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T16:28:00.231Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "AcademiaStemTapachula\\Areas\\Dashboard\\Controllers\\CursosController.cs",
               "ViewState": "AgIAAK0AAAAAAAAAAAAuwMYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T16:27:46.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T16:27:46.693Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "AcademiaStemTapachula\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T16:37:18.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T16:37:18.31Z"
             }
           ]
         }
